@@ -1,0 +1,10 @@
+{
+  "description": "A custom-branded recreation of a reference website, giving visitors a familiar, polished way to explore its content and features.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

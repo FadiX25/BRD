@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="86" viewBox="0 0 300 86" fill="none">
+  <title>Bâti Renov Design</title>
+  <path d="M5 25 52 9l47 16" stroke="#fff" stroke-width="3.5" stroke-linecap="square"/>
+  <path d="M49 28h6v6h-6z" fill="#ed8b36"/>
+  <text x="4" y="72" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="-1.5">BRD</text>
+  <path d="M116 25v45" stroke="#fff" stroke-opacity=".25"/>
+  <text x="133" y="43" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="1.5">BÂTI RENOV</text>
+  <text x="133" y="68" fill="#ed8b36" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" letter-spacing="5.7">DESIGN</text>
+</svg>
