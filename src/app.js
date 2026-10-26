@@ -10,7 +10,7 @@ const services = [
 ['pergola', 'Pergolas', 'Un nouvel espace de vie pour profiter de chaque saison.'],
 ['escalier', 'Escaliers & Parquets', 'Des matières et des finitions pour sublimer votre intérieur.']
 ];
-const assetBase = './src/assets/';
+const assetBase = new URL('../images/', import.meta.url).href;
 document.querySelector('#service-grid').innerHTML = services.map(([image,title,description],i)=>`<a class="service-card" href="#contact" data-service="${title}"><div class="card-photo"><img src="${assetBase}${image}.webp" alt="${title} — photographie d’illustration" loading="lazy" decoding="async"><span class="card-arrow">↗</span></div><div class="card-copy"><span class="service-number">0${i+1}</span><h3>${title}</h3><p>${description}</p></div></a>`).join('');
 const menu = document.querySelector('.menu-toggle');
 const contactWidget = document.querySelector('#contact-widget');

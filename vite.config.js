@@ -7,7 +7,8 @@ export default defineConfig(({ mode }) => {
     // .figma/make/deploy-preview passes `--mode development` for cached-preview builds.
     const emitSourcemaps = mode === 'development';
     return {
-        base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
+        // Relative URLs work on localhost and on GitHub Pages project paths.
+        base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : './',
         build: {
             sourcemap: emitSourcemaps ? 'inline' : false,
             minify: !emitSourcemaps,
